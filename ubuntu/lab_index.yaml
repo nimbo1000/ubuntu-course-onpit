@@ -1,0 +1,16 @@
+title: ubuntu
+description: learn the basic ubuntu commands
+details:
+  intro:
+    text: intro.rst
+  steps:
+  - name: step1
+    title: Title for step 1
+    text: step1.rst
+  finish:
+    text: finish.rst
+grader: grader.py
+initializationScript: setup.py
+backend:
+  image: nplaku/ignite-ubuntu
+  environment: ignite
