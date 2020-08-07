@@ -12,5 +12,5 @@ details:
 grader: grader.py
 initializationScript: setup.py
 backend:
-  image: nplaku/ignite-ubuntu
+  image: nplaku/ignite-ubuntu:0.2
   environment: ignite
